@@ -16,12 +16,23 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'kimpettersen_kimpettersencv',
+#         'USER': 'kimpettersen',
+#         'PASSWORD': 'sJGk7.6L',
+#         'HOST': '',
+#         'PORT': '',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'kimpettersen_kimpettersencv',
-        'USER': 'kimpettersen',
-        'PASSWORD': 'sJGk7.6L',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'kimpettersencv_db',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '',
         'PORT': '',
     }
@@ -99,6 +110,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'rest_framework',
+    'snippets',
 )
 
 # Override the server-derived value of SCRIPT_NAME 
