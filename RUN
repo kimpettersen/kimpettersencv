@@ -1,0 +1,1 @@
+PYTHONPATH=/home/kimpettersen/django-kimpettersencv:/home/kimpettersen/kimpettersencv:/home/kimpettersen/kimpettersencv/kimpettersencv:. python manage.py runserver 127.0.0.1:62003
