@@ -112,6 +112,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'rest_framework',
     'snippets',
+    'get_in_touch',
 )
 
 # Override the server-derived value of SCRIPT_NAME 
