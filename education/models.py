@@ -1,3 +1,11 @@
 from django.db import models
 
-# Create your models here.
+
+class Education(models.Model):
+    university = models.CharField(max_length=250)
+    city = models.CharField(max_length=250)
+    country = models.CharField(max_length=250)
+    title = models.CharField(max_length=250)
+    start_date = models.CharField(max_length=13)
+    end_date = models.CharField(max_length=13)
+    description = models.TextField()

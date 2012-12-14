@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     ('^admin/', include(admin.site.urls)),
     url(r'^', include('snippets.urls')),
     url(r'^', include('get_in_touch.urls')),
+    url(r'^', include('education.urls')),
 )
 
 urlpatterns += patterns('',

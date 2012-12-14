@@ -113,6 +113,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'snippets',
     'get_in_touch',
+    'education',
 )
 
 # Override the server-derived value of SCRIPT_NAME 

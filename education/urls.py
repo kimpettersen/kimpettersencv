@@ -1,10 +1,10 @@
 from django.conf.urls import patterns, url
 from rest_framework.urlpatterns import format_suffix_patterns
-from get_in_touch import views
+from education import views
 
 
 urlpatterns = patterns('',
-    url(r'^getintouch/$', views.GetInTouchList.as_view()),
+    url(r'^education/$', views.EducationList.as_view()),
 )
 
 urlpatterns = format_suffix_patterns(urlpatterns)
