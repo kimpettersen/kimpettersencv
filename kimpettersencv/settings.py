@@ -30,7 +30,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'kimpettersencv_db',
+        'NAME': 'db_kimpettersencv',
         'USER': '',
         'PASSWORD': '',
         'HOST': '',
@@ -110,11 +110,13 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'south',
     'rest_framework',
     'snippets',
     'get_in_touch',
     'education',
 )
+
 
 # Override the server-derived value of SCRIPT_NAME 
 # See http://code.djangoproject.com/wiki/BackwardsIncompatibleChanges#lighttpdfastcgiandothers
